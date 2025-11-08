@@ -1,46 +1,27 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/Contacts/app.css' />
-    <link rel='stylesheet' href='/bootstrap/dist/css/bootstrap.min.css'/>
-    <link rel="stylesheet" href=" /@fortawesome/fontawesome-free/css/all.min.css"/>
-    <script src="/jquery/dist/jquery.min.js"></script>
-    <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/">Kanth Manotheepan</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown link
+<%- include('partials/header', { title: 'Home Page' }) %>
+
+<div class="home-section">
+  <div class="container text-white">
+    <div class="row align-items-center">
+      <!-- Left column: text -->
+      <div class="col-md-7 text-center text-md-start">
+        <h2>Hi, I’m <span class="highlight">Kanth</span> Manotheepan</h2>
+        <h3>A <span class="highlight">Cybersecurity</span> Student From Ontario Tech University</h3>
+        <p class="mt-3">
+          Contact: 
+          <a href="mailto:Rishikanth.manotheepan@ontariotechu.net" class="contact-link">
+            Rishikanth.manotheepan@ontariotechu.net
           </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-      </ul>
+        </p>
+        <p class="copyright">©2025 Rishikanth Manotheepan</p>
+      </div>
+
+      <!-- Right column: image -->
+      <div class="col-md-5 text-center">
+        <img src="/Asset/images/web-pic.jpg" alt="Profile Image" class="hero-image">
+      </div>
     </div>
   </div>
-</nav>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+</div>
+
+<%- include('partials/footer') %>

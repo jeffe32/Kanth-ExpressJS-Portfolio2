@@ -1,0 +1,32 @@
+<%- include('partials/header', { title: 'About Me' }) %>
+
+<section class="about-section text-center text-white">
+  <div class="container">
+
+    <!-- Title -->
+    <h1 class="about-title mb-4">About Me</h1>
+
+    <!-- Profile Image -->
+    <div class="about-image mb-4">
+      <img src="/Asset/images/about-me-pic.jpg" alt="Kanth Manotheepan" class="about-photo">
+    </div>
+
+    <!-- Description -->
+    <p class="about-text">
+      My name is <span class="highlight">Kanth Manotheepan</span> and I'm a 
+      19-year-old <span class="highlight">Networking and IT student</span> at Ontario Tech University.
+      I'm originally from Sri Lanka and I have a twin brother studying here too at Ontario Tech.  
+      Outside of classes, I'm a mechanic and enjoy spending time at the gym and working on cars.  
+      My hobbies include <span class="highlight">problem-solving</span> and <span class="highlight">technology</span>.
+    </p>
+
+    <!-- Video -->
+<div class="about-video mt-5">
+  <video controls preload="auto" poster="/Asset/images/poster.jpg" class="about-video-player">
+    <source src="/Asset/videos/about-me-video.mp4" type="video/mp4" />
+  </video>
+</div>
+
+</section>
+
+<%- include('partials/footer') %>
