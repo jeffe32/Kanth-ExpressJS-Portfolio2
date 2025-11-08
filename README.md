@@ -70,7 +70,7 @@ Contact
   Developer: Rishikanth Manotheepan
   Email: Rishikanth.manotheepan@ontariotechu.net
 
-  Live to my website deploy with render: https://kanth-expressjs-portfolio2.onrender.com
+  Live to my website deploy with render: https://kanth-expressjs-portfolio2-8.onrender.com/
 
   GitHub Link: https://github.com/jeffe32/Kanth-ExpressJS-Portfolio2
 
